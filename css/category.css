@@ -1,0 +1,123 @@
+.cat_data ul li {
+	list-style-type: none !important;
+}
+.category .show_Cat{
+border:1px solid black;
+/*background-color: cyan;*/
+padding:5px 15px;
+margin-bottom:10px;
+}
+.show_Cat .small{
+text-align: right;
+font-size: 14px;
+}
+
+.show_Cat .cath3{
+	font-size: 20px;
+	/*background-color: cyan;*/
+}
+
+/*category list*/
+.Cat_list .cat_data{
+border:2px solid black;
+max-height:90%;
+overflow-y:auto;
+position: absolute;
+
+}
+@media screen and (max-width: 575px){
+	.Cat_list .cat_data{
+		max-height: 500px;
+		position:relative;
+	}
+	.Cat_list .cat_data ul{
+		font-size: 16px;
+	}
+	#postappend{
+	    margin-bottom:30px;
+	}
+	#postappend .show_cat h3{
+	    font-size:20px !important;
+	}
+}
+.Cat_list .cat_data ul{
+	margin-right: 20px;
+	margin-left: -10px;
+
+}
+
+.pagination {
+	display: inline-flex;
+}
+
+.pagination a {
+	color: #505050;
+	text-decoration: none;
+}
+
+.page-a-link {
+	font-family: arial, verdana;
+    font-size: 12px;
+    border: 1px #afafaf solid;
+    background-color: #fbfbfb;
+    padding: 6px 12px 6px 12px;
+    margin: 6px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+
+
+a.previous-page {
+	margin: 10px 10px 10px 0px;
+}
+
+a.prev-next:hover {
+	color: #03a9f4;
+}
+
+a.next {
+	margin: 10px 0px 10px 10px;
+}
+
+input.enter-page-no {
+	width: 42px !important;
+	height: 28px !important;
+	font-size: 12px;
+	padding: 6px 12px 6px 12px !important;
+	margin: 6px;
+	border-radius: 3px !important;
+	text-align: center !important;
+}
+
+input.goto-button {
+	max-width: 80px;
+	font-size: 12px;
+	padding: 6px 12px 6px 12px !important;
+	border: 1px solid #9a9a9a;
+	border-radius: 3px !important;
+	text-align: center !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dfdd99), color-stop(100%, #bcbd2b));
+    background: -webkit-linear-gradient(top, #dfdc99, #b8bd2b);
+    border: 1px solid #97a031;
+    box-shadow: inset 0px 1px 0px rgb(255, 255, 211), 0px 1px 4px rgba(199, 199, 199, 0.9);
+}
+
+.goto-page {
+	float: right;
+}
+
+.page-before-after {
+	font-weight: bold;
+	padding-top: 12px;
+	text-decoration: none;
+}
+.category_bg{
+  background-image: url('../img/catImg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-color:(43, 43, 39,0.6);
+  width:100%x;
+  height:400px;
+  background-attachment:fixed;
+}

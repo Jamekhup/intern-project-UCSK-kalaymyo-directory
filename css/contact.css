@@ -1,0 +1,148 @@
+/*drpdown start*/
+.area{
+	height: 500px;
+	width:100%;
+	background-image:url('../img/map3.png');
+	background-size: cover;
+	background-position: center center;
+	background-color:rgba(43, 39, 39,0.6);
+	background-attachment: fixed;
+}/*
+@media screen and ( max-width:575px){
+	.area {
+		background-size: cover;
+		background-image:url('../img/map3.png');
+		height: 300px;
+		width:60%;
+	}*/
+
+/*wn-menu{.menu-area{
+/*.menu-area{
+	position:static !important;
+}
+.mega-area{
+	position:absolute;
+	width:100%;
+	left:0;
+	right: 0;
+	padding:15px;
+}
+.dropdown-item{
+	padding:5px 0px;
+}
+h5{
+	margin-left: 22px;
+	font-family:pyidaungsu;
+	letter-spacing: 2px;
+	font-weight: 500;
+	/*font-size: 28px;*/
+	/*color:white;
+}*/
+
+/*nav item start*/
+/*.navbar{
+	background-color:transparent;
+}
+nav img{
+	width:200px;
+	height: 70px;
+}
+
+.navbar .collapse .navbar-nav .nav-item{
+	margin-left: 20px;
+}
+.navbar .collapse .navbar-nav .nav-item a{
+	font-size: 20px !important;
+	font-family: pyidaungsu;
+	font-weight: 600;
+	color:yellow;
+	text-shadow: 1px 2px 3px black;
+}
+.navbar .collapse .navbar-nav .nav-item a:hover{
+	/*color:#ff4500;*/
+/*	color:#32CD32;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.dropdown .dropdown-menu .row .col-sm-6 .dropdown-item{
+	color:white;
+	font-size:14px !important;
+	font-family: pyidaungsu;
+}
+.dropdown .dropdown-menu .row .col-sm-6 .dropdown-item:hover{
+	color:#32CD32;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.dropdown .dropdo
+	background-color: rgba(0, 0, 0, 0.6);
+}*/
+
+
+h2{
+	text-align: center;
+}
+.container .contact{
+	 margin-left: -40px;
+}
+.container .contact ul {
+	font-size: 15px;
+}
+.col-md-6 .contact{
+	list-style-type: none;
+}
+.container .row .col-md-6 form input::placeholder{
+	color: tomato;
+}
+
+.container .row .col-md-6 form textarea::placeholder{
+	color: tomato !important;
+}
+
+.form-group .form-control{
+	box-shadow: none !important;
+	outline:none !important;
+}
+.myp{
+	text-align: center;
+	text-indent: 50px;
+	line-height: 2;
+	margin-bottom: 10px;
+	padding-left: 67px;
+	padding-right: 67px;
+	
+}
+.fb-page { margin-right:  10px; }
+
+.container h2{
+	padding: 15px;
+}
+
+.container-fluid h2{
+	padding: 15px;
+}
+h1{
+	padding: 15px;
+}
+hr{ 
+	width:100%;
+	height: auto;
+	background-color: tomato;
+
+}
+.tt hr{
+	width:71%;
+}
+.aa hr{
+	margin-top: 20px;
+}
+.contact ul i{
+	font-size: 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+/*.container{*/
+	/*margin-bottom:500px;*/
+
+
+
+
